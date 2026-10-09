@@ -24,7 +24,6 @@ jobs:
           cat << EOF > script.sh
           set -euo pipefail
           railgo-mongod &
-          mkdir -p export
           uv run main.py
           EOF
           nix develop --command bash script.sh
