@@ -1,7 +1,9 @@
 __pycache__/
 dbgtools/
-export/
+export/*
+!export/.gitkeep
 .vscode/
 railgo.log
 railgo.log.*
 devtest.py
+.direnv
